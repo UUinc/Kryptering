@@ -1,0 +1,26 @@
+Encryption
+ Create a program that can decrypt a message.
+ The message is decrypted using the following algorithm:
+ • The first letter is included
+ • Each letter included describes the position of the next letter.
+ An 'A' means that the next letter is 1 position in front, an 'B' means 2 positions, and so on.
+ • When you reach the last letter, it is included and the message is ready.
+ Example 1:
+ Encrypted text: HAAAAAAAEAAAAJ
+ We include the first letter:
+ HAAAAAAAEAAAAJ
+ H is the 8th letter in the alphabet, so the next letter is 8 positions forward
+ HAAAAAAAEAAAAJ
+ E is the 5th letter in the alphabet, so the next letter is 5 positions forward
+ HAAAAAAAEAAAAJ
+ J is the last letter in the string.  The message is over
+ Decrypted text: HEJ
+ Example 2:
+ Encrypted text: TABCDEFGHIJKLMNOPQRSJABCDEFGHIO
+ TABCDEFGHIJKLMNOPQRSJABCDEFGHIO
+ Decrypted text: TJO
+ In your program, the user should write an encrypted message and the program should print it
+ decrypted the message.
+ Extra:
+ Enables your application to encrypt as well.
+ Randomly find the letters that are between the letters of the message.
